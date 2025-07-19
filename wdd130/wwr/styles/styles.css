@@ -1,0 +1,42 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+
+}
+
+nav a, #hero-msg h1, #hero-msg h4, .button-box, main {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+}
+
+body {
+    background-color: #c04000;
+}
+
+header {
+    background-color: ivory;
+}
+
+nav a:hover {
+    background-color: antiquewhite;
+}
+
+.book {
+    background-color: tan;
+}
+
+.join {
+    background-color: #800020;
+}
+
+.book:hover {
+    background-color: salmon;
+}
+
+.join:hover {
+    background-color: plum;
+}
+

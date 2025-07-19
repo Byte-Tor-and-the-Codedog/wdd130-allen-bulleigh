@@ -1,0 +1,81 @@
+@font-face {
+	font-family: Cedarville_Cursive;
+	src: url("../fonts/Cedarville_Cursive/CedarvilleCursive-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: Old_Standard;
+	src: url("../fonts/Old_Standard_TT/OldStandardTT-Italic.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: Zen_Old_Mincho;
+	src: url("../fonts/Zen_Old_Mincho/ZenOldMincho-Regular.ttf") format("truetype");
+}
+
+body, nav, footer, main {
+	border-style: double;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px;
+	max-height: 75%;
+}
+
+body {
+background-image: url("../images/cursive.jpg");
+background-size: cover;
+}
+
+header {
+	background-color: #800020;
+	font-family: "Cedarville_Cursive", sans-serif;
+	display: flex;
+	justify-content: center;
+}
+
+main {
+	background-color: ivory;
+	font-family: Old_Standard;
+	text-align: center;
+	opacity: 75%;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: auto;
+}
+
+nav {
+	display: flex;
+	margin-bottom: 0;
+	background-color: #773f1a;
+	font-family: Zen_Old_Mincho;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.row {
+	display: flex;
+
+}
+
+footer {
+	background-color: maroon;
+	font-family: Old_Standard;
+}
+
+main > *:first-child {
+	margin-top: 0;
+}
+
+footer > *:first-child {
+	margin-top: 0;
+}
+
+#ma {
+	border-radius: 50px;
+	width: 100px;
+	height: auto;
+}
